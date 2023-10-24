@@ -1,0 +1,15 @@
+import java .util.Scanner;
+public class area {
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        //area of rhombus
+        System.out.println("enter 1st diagonal");
+        float a=sc.nextFloat();
+        System.out.println("enter 2nd diagonal");
+        float b=sc.nextFloat();
+        double area=a*b/2;
+        System.out.println(area);
+
+    }
+
+    }
