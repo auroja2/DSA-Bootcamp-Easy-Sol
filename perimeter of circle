@@ -1,0 +1,15 @@
+import java .util.Scanner;
+public class area {
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        //perimeter of circle
+        System.out.println("enter radius");
+        float a=sc.nextFloat();
+        double perimeter= 2*3.14*a;
+                System.out.println(perimeter);
+    }
+
+    }
+
+
+
