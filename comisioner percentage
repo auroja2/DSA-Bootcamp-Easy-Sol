@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class area {
+    public static void main(String[]args){
+       Scanner sc=new Scanner(System.in);
+        System.out.println("enter the sales prize");
+        float prize=sc.nextFloat();
+        System.out.println("enter the comissioner prize");
+        float commissioner= sc.nextFloat();
+        float cmt= commissioner*100f/prize;
+        System.out.println("the commisioner value"+cmt);
+
+    }
+}
