@@ -1,0 +1,29 @@
+import java .util.Scanner;
+public class area {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("enter a no");
+        int n=sc.nextInt();
+        int n1;int total=0;
+        int temp;
+        n1=n;
+        while(n1!=0) {
+            temp = n % 10;
+            total = total + temp * temp * temp;
+            n1 /= 10;
+        }
+        if ( n == total) {
+            System.out.println("its an armstrong no");
+        }
+            else{
+                System.out.println("its not");
+            }
+
+
+        }
+
+
+        }
+
+
+    
