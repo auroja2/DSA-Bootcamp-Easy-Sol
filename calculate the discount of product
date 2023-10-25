@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class area {
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the original prize");
+        int original=sc.nextInt();
+        System.out.println("enter discount of the prize");
+        float prize=sc.nextFloat();
+        float disc=prize*original/100f;
+        float newprize=original-disc;
+        System.out.println(newprize);
+    }
+}
