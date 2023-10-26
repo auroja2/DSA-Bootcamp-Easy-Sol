@@ -1,0 +1,22 @@
+import java .util.Scanner;
+public class Main{
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter radius");
+        double r = sc.nextFloat();
+        double multiple=multi(3);
+        System.out.println(multiple);
+
+
+    }
+
+
+
+
+
+        public static float multi(float r) {
+            float multi =  2f*3.15f*r;
+            return multi ;
+        }
+
+        }
